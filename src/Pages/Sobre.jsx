@@ -4,7 +4,7 @@ function Sobre() {
   const [results, setResults] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/services", {
+    fetch("https://react-ps-g-ti-jr-2023-2-json-server.vercel.app/services", {
       method: "Get",
       headers: {
         "Content-Type": "application/json",
