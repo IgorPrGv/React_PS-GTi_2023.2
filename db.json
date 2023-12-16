@@ -1,0 +1,74 @@
+{
+    "services":[
+        {
+            "id":"1",
+            "name": "Construção de usinas eólicas",
+            "image": "/images/eolic-energy.png",
+            "about": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi optio totam nisi labore. Modi, dolorem odit sint, nisi consequatur dolore labore fugit sit atque corrupti dolores architecto."
+        },
+        {
+            "id":"2",
+            "name": "Instalação de placas solares",
+            "image": "/images/solar-energy.png",
+            "about": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi optio totam nisi labore. Modi, dolorem odit sint, nisi consequatur dolore labore fugit sit atque corrupti dolores architecto."
+        },
+        {
+            "id":"3",
+            "name": "Manutenção de componentes",
+            "image": "/images/industrial.png",
+            "about": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi optio totam nisi labore. Modi, dolorem odit sint, nisi consequatur dolore labore fugit sit atque corrupti dolores architecto."
+        },
+        {
+            "id":"4",
+            "name": "Sistema em tempo real ao cliente",
+            "image": "/images/mobile.png",
+            "about": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi optio totam nisi labore. Modi, dolorem odit sint, nisi consequatur dolore labore fugit sit atque corrupti dolores architecto."
+        },
+        {
+            "id":"5",
+            "name": "Estudo de condições locais",
+            "image": "/images/analysis.png",
+            "about": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi optio totam nisi labore. Modi, dolorem odit sint, nisi consequatur dolore labore fugit sit atque corrupti dolores architecto."
+        }
+    ],
+    "clients":[
+        {
+            "id":"1",
+            "name":"Cillian Murphy",
+            "image":"/images/Oppenheimer-trailer.jpg",
+            "opinion":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi optio totam nisi labore. Modi, dolorem odit sint, nisi consequatur dolore labore fugit sit atque corrupti dolores architecto. Tempore, expedita error"
+        },
+        {
+            "id":"2",
+            "name":"Lionel Messi",
+            "image": "/images/lionel-2008448_1280.jpg",
+            "opinion":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi optio totam nisi labore. Modi, dolorem odit sint, nisi consequatur dolore labore fugit sit atque corrupti dolores architecto. Tempore, expedita error"
+        },
+        {
+            "id":"3",
+            "name":"Margot Robbie",
+            "image":"/images/margot-robbie-as-4200x3083-11254.jpg",
+            "opinion":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi optio totam nisi labore. Modi, dolorem odit sint, nisi consequatur dolore labore fugit sit atque corrupti dolores architecto. Tempore, expedita error"
+        }
+    ],
+    "location":[
+        {
+            "id":"1",
+            "name":"Fortaleza, CE",
+            "image":"/images/fortaleza.jpg",
+            "address":"Lorem ipsum dolor, sit amet consectetur adipisicing elit."
+        },
+        {
+            "id":"2",
+            "name":"Rio de Janeiro, RJ",
+            "image": "/images/rio.jpg",
+            "address":"Lorem ipsum dolor, sit amet consectetur adipisicing elit."
+        },
+        {
+            "id":"3",
+            "name":"Recife, PE",
+            "image":"/images/recife.jpg",
+            "address":"Lorem ipsum dolor, sit amet consectetur adipisicing elit."
+        }
+    ]
+}
