@@ -4,7 +4,7 @@ function Clients(){
 
     const [results, setResults] = useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5000/clients', {
+        fetch('https://react-ps-g-ti-jr-2023-2-json-server.vercel.app/clients', {
             method: 'Get',
             headers: {
                 'Content-Type':'application/json',
