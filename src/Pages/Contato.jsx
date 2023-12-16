@@ -4,7 +4,7 @@ function Contato(){
     const [results, setResults] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:5000/location", {
+        fetch("https://react-ps-g-ti-jr-2023-2-json-server.vercel.app/location", {
         method: "Get",
         headers: {
             "Content-Type": "application/json",
