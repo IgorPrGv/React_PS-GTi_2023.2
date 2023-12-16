@@ -11,11 +11,11 @@ module.exports = {
         'hero2': "url('/src/Components/images/atendente.jpg')"
       },
       colors:{
-        'primary': '#FBE4D8',
-        'secondary':'#DFB6B2',
-        'third':'#854F6C',
-        'fourth':'#522B5B',
-        'fifth':'#190019',
+        'primary': '#f0f3bd',
+        'secondary':'#6fffe9',
+        'third':'#88d498',
+        'fourth':'#1a936f',
+        'fifth':'#114b5f',
       },
       fontFamily: {
         'Poppins': ['Poppins', 'sans-serif'],
