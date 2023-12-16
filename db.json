@@ -56,19 +56,19 @@
             "id":"1",
             "name":"Fortaleza, CE",
             "image":"/images/fortaleza.jpg",
-            "address":"Lorem ipsum dolor, sit amet consectetur adipisicing elit."
+            "address":"BS Towers - Av. Desembargador Moreira, Torre Norte, 5º andar - Fone: (85)4002-8922"
         },
         {
             "id":"2",
             "name":"Rio de Janeiro, RJ",
             "image": "/images/rio.jpg",
-            "address":"Lorem ipsum dolor, sit amet consectetur adipisicing elit."
+            "address":"Avengers Towers - Av. Copacabana, Torre Sull, 7º andar - Fone: (21)4002-8922"
         },
         {
             "id":"3",
             "name":"Recife, PE",
             "image":"/images/recife.jpg",
-            "address":"Lorem ipsum dolor, sit amet consectetur adipisicing elit."
+            "address":"Oscorp Corporation - Av. Times Square, Torre Norte, 15º andar - Fone: (81)4002-8922"
         }
     ]
 }

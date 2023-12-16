@@ -15,7 +15,7 @@ function Main(){
             </div>
         </section>
 
-        {/**/}
+        {/*Prizes Section*/}
         <section className=" bg-fifth w-full min-h-screen flex flex-col items-center justify-center">
             <Prizes/>
         </section>
