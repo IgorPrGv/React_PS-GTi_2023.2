@@ -4,7 +4,7 @@ function Contato(){
     const [results, setResults] = useState([]);
 
     useEffect(() => {
-        fetch("https://react-ps-g-ti-jr-2023-2-json-server.vercel.app/location", {
+        fetch("https://react-ps-g-ti-jr-2023-2-json-server.vercel.app/contato", {
         method: "Get",
         headers: {
             "Content-Type": "application/json",
