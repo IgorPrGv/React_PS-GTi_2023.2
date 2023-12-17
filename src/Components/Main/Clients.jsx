@@ -30,7 +30,7 @@ function Clients(){
                                     <h2>{result.name}</h2>
                                 </div>
                                 <div className=" flex-col md:flex-row md:inline-flex items-center pl-5 pr-5 pb-5 pt-2 justify-center gap-4">
-                                    <img src={result.image} className="flex items-center md:ml-0 justify-center w-24 h-24 md:w-32 md:h-32 rounded-md" />
+                                    <img src={result.image} className="flex ml-17 md:ml-0 justify-center w-24 h-24 md:w-32 md:h-32 rounded-md" />
                                     <p className="text-secondary leading-5 text-justify">{result.opinion}</p>
                                 </div>
                             </div>
