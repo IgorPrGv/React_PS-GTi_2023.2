@@ -15,7 +15,7 @@ function Contato(){
             </section>
 
             <section className="bg-fifth w-screen min-h-screen flex flex-col items-center justify-center">
-                <h1 className="text-primary font-bold font-Poppins text-3xl mb-5 md:text-6xl cursor-pointer hover:scale-110 duration-300">Nos mande uma mensagem</h1>
+                <h1 className="text-primary  text-center font-bold font-Poppins text-3xl mb-5 md:text-6xl cursor-pointer hover:scale-110 duration-300">Nos mande uma mensagem</h1>
                 <Message/>
             </section>
 

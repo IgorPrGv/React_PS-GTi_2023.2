@@ -94,30 +94,30 @@ function Quiz(){
 
         if (mainResult === 'A'){
             return(
-                <div className="bg-white w-fit flex flex-col justify-center items-center p-5">
+                <div className="bg-fourth text-justify leading-5 text-primary pb-2 pt-2 pl-4 pr-4 font-Poppins rounded-lg">
                     <h2>Vc escolheu mais a letra A, logo este é o melhor serviço para você:</h2>
-                    <h3>Instalação de placas solares na sua residência</h3>
+                    <h3 className="font-semibold text-center pt-4">Instalação de placas solares na sua residência</h3>
                 </div>
             )
         } else if(mainResult === 'B'){
             return(
-                <div className="bg-white w-fit flex flex-col justify-center items-center p-5">
+                <div className="bg-fourth text-justify leading-5 text-primary pb-2 pt-2 pl-4 pr-4 font-Poppins rounded-lg">
                     <h2>Vc escolheu mais a letra B, logo este é o melhor serviço para você:</h2>
-                    <h3>Construção de usinas eólicas conectadas diretamente à sua empresa</h3>
+                    <h3 className="font-semibold text-center pt-4">Construção de usinas eólicas conectadas diretamente à sua empresa</h3>
                 </div>
             )
         } else if(mainResult === 'C'){
             return(
-                <div className="bg-white w-4/6 flex flex-col justify-center items-center gap-2 p-5">
+                <div className="bg-fourth text-justify leading-5 text-primary pb-2 pt-2 pl-4 pr-4 font-Poppins rounded-lg">
                     <h2>Vc escolheu mais a letra C, logo este é o melhor serviço para você:</h2>
-                    <h3>Desenvolvimento de um Sistema em tempo real para você melhor acompanhar o seu sistema renovável</h3>
+                    <h3 className="font-semibold text-center pt-4">Desenvolvimento de um Sistema em tempo real para você melhor acompanhar o seu sistema renovável</h3>
                 </div>
             )
         } else if(mainResult === 'D'){
             return(
-                <div className="bg-white w-fit flex flex-col justify-center items-center gap-2 p-5">
+                <div className="bg-fourth text-justify leading-5 text-primary pb-2 pt-2 pl-4 pr-4 font-Poppins rounded-lg">
                     <h2>Vc escolheu mais a letra D, logo este é o melhor serviço para você:</h2>
-                    <h3>Manutenção de componentes</h3>
+                    <h3 className="font-semibold text-center pt-4">Manutenção de componentes</h3>
                 </div>
             )
         }
@@ -136,12 +136,12 @@ function Quiz(){
         return(
             <>
                 <section className=" bg-fifth w-full min-h-screen flex flex-col items-center justify-center gap-4">
-                    <div className=" bg-white w-3/5 h-3/5 gap-2">
-                        <h2>Resultado</h2>
+                    <div className=" bg-third w-4/5 md:w-3/5 h-3/5 p-4 rounded-lg shadow-md shadow-primary">
+                        <h2 className="font-bold text-fifth text-center">Resultado</h2>
                         {renderResultsData()}
                     </div>
-                    <div>
-                        <button className="bg-white rounded-md w-4/6" onClick={restart}>Fazer novamente</button>
+                    <div className="flex items-center justify-center font-bold cursor-pointer hover:text-third ">
+                        <button className="bg-third font-Poppins shadow-md shadow-primary leading-4 text-center text-fifth rounded-md w-4/6 mb-5 p-2" onClick={restart}>Fazer novamente</button>
                     </div>
                 </section>
                 
@@ -151,14 +151,14 @@ function Quiz(){
         return(
             <>
                 <section className=" bg-fifth w-full min-h-screen flex flex-col items-center justify-center gap-4">
-                    <div className=" bg-white w-3/5 h-3/5 gap-2">
+                    <div className="font-Poppins bg-third w-4/5 md:w-3/5 h-3/5 p-4 rounded-lg shadow-md shadow-primary">
                         <Progress total="5" current={`${currentIndex + 1}`}/>
                         <Question question={question.question}/>
                         {renderError()}
                         <Options question={question}  currentAnswer={currentAnswer} mouseClick={mouseClick}/>
                     </div>
-                    <div>
-                        <button className="bg-white rounded-md w-4/6" onClick={next}>Confirmar e prosseguir</button>
+                    <div className="flex items-center justify-center">
+                        <button className="bg-third shadow-md font-bold shadow-primary leading-4 text-center text-fifth  rounded-md w-4/6 mb-5 p-2" onClick={next}>Confirmar e prosseguir</button>
                     </div>
                 </section>
             </>
