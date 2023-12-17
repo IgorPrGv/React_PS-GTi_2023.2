@@ -8,7 +8,7 @@ function Footer(){
             <footer className="shadow-md w-full mt-auto">
                 <div className=" bg-primary  font-Poppins flex justify-center items-center ">
                     {/*Main container*/}
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-20 md:px-24 px-5 py-5">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-20 md:px-24 px-5 py-5 text-fifth">
                         {/*Enterprise*/}
                         <ul >
                             <h1 className=" text-3xl mb-1 font-semibold">Empresa</h1>

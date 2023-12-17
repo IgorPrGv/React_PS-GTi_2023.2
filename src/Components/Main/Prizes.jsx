@@ -11,7 +11,7 @@ function Prizes(){
                 <h1 className="text-4xl font-bold text-primary">Números</h1>
                 <p className="text-2xl text-primary text-center">Nossos reconhecimentos obtido no mercado</p>
             </div>
-            <div className="flex flex-col justify-center items-center md:flex-row md:items-center md:pb-4 pb-9 md:gap-20 gap-4 md:max-w-4xl">
+            <div className="flex flex-col md:flex-wrap justify-center items-center md:items-center md:pb-4 pb-9 md:gap-10 gap-4 md:max-w-5/6 md:flex-row">
                 
                 <div className=" bg-fourth flex flex-col justify-center items-center w-52 mb-2 mt-2 rounded-2xl">
                     <div className=" text-primary text-center font-bold overflow-hidden">

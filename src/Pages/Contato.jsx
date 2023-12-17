@@ -1,11 +1,16 @@
 import HeaderC from "../Components/Contato/HeaderC";
 import Location from "../Components/Contato/Location";
 import Message from "../Components/Contato/Message";
+import image1 from "../Components/images/atendente.jpg"
 
 function Contato(){
     return(
         <>
-            <section className="bg-hero2 brightness-75 bg-cover w-screen min-h-screen flex items-center justify-center">
+            <section className=" bg-fifth bg-cover w-full bg-no-repeat min-h-screen flex items-center justify-center">
+                <div
+                    className="absolute bg-cover w-full inset-0"
+                    style={{ backgroundImage: `url(${image1})`, filter: 'brightness(50%)' }}
+                ></div>
                 <HeaderC/>
             </section>
 
